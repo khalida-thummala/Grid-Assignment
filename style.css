@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.grid {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.box {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+/* Colors */
+.b1 { background: #00C8FF; }
+.b2 { background: #FF4500; }
+.b3 { background: #3D4EDB; }
+.b4 { background: #FFD500; color: black; }
+.b5 { background: #8C27FF; }
+.b6 { background: #26C837; }
+.b7 { background: #FF7A59; }
+.b8 { background: #2BA8A8; }
+.b9 { background: #6A0000; }
